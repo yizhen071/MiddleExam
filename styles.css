@@ -46,7 +46,7 @@ header, .section_1 {
     text-decoration: none;
     color: #4e4e4e;
 }
-
+/*nav文字跳動*/
 .text_1 {
     font-style: italic;
     font-size: 18px;
@@ -101,7 +101,7 @@ header, .section_1 {
     text-align: center;
     width: 100%;
 }
-
+/*照片做放大縮小動畫*/
 .image_1 {
     width: 400px;
     height: 400px;
@@ -127,7 +127,7 @@ header, .section_1 {
     font-family: 'Cormorant';
     color: #4e4e4e;
 }
-
+/*名字做光暈變化*/
 .name_1 {
     color: #fff;
     padding: 10px 10px 10px 0px;
@@ -147,7 +147,7 @@ header, .section_1 {
       color: #f5a69f;
     }
 }
-
+/*按鈕按下取回有漸變效果*/
 .input_but input[type="button"] {
     background-color: #fffbf9;
     color: #333;
@@ -183,7 +183,7 @@ header, .section_1 {
     transition: transform 0.3s ease;
     position: relative;
 }
-
+/*為slogan做文字浮動效果及動態線條，當滑鼠滑過會執行動畫*/
 .slogan:hover {
     transform: translateY(-10px);
 }
@@ -211,11 +211,12 @@ header, .section_1 {
     padding: 8px 0px 30px 0px;
     transition: all .3s linear;
 }
-
+/*為標題做顏色變化，當滑鼠滑過會呈現其他顏色*/
 .subtitle:hover{
     color: #ff8c8c;
 }
 
+/*用CSS做動態條呈現%，然後跑到指定%數後，會還到0%，再持續動畫*/
 .Group_1 {
     margin: 0px 50px 50px 90px;
     border-spacing: 20px;
@@ -290,6 +291,7 @@ header, .section_1 {
     50% { width: 75%; }
     100% { width: 0%; }
 }
+/*用CSS做動態條呈現%，然後跑到指定%數後，會還到0%，再持續動畫，到這裡結束*/
 
 .container_2 {
     display: flex;
@@ -298,6 +300,8 @@ header, .section_1 {
     margin-top: 20px;
 }
 
+
+/*從這裡開始是做語言百分比圓環動畫*/
 .circle, .circle90, .circle60, .circle55 {
     width: 120px;
     height: 120px;
@@ -408,6 +412,7 @@ header, .section_1 {
 .right55 .right55_circle {
     animation: progress55_2 2s linear forwards;
 }
+/*到這裡是語言百分比圓環動畫結尾*/
 
 .container_3 {
     display: flex;
@@ -502,7 +507,7 @@ header, .section_1 {
     color: #ffffff;
     opacity: 0.6;
 }
-
+/*用CSS為圖片做循環撥放及圖片切換*/
 .photo {
     width: 550px;
     height: 350px;
@@ -559,6 +564,8 @@ header, .section_1 {
     75% { transform: translateX(-10px); }
     100% { transform: translateX(0); }
 }
+/*用CSS為圖片做循環撥放及圖片切換，到這裡結束*/
+
 
 .h2 {
     text-align: left;
@@ -569,7 +576,7 @@ header, .section_1 {
     overflow-wrap: break-word;
     color: #333;
 }
-
+/*為文字塊做顏色變換特效*/
 .btn {
     margin: -40px 0px 0px 0px;
     display: inline-block;
@@ -621,6 +628,7 @@ header, .section_1 {
 .btn span:nth-child(4) {
     --n: 4;
 }
+/*為文字塊做顏色變換特效，到這裡結束*/
 
 .table_2 {
     margin: 0px 0px 0px 300px;
@@ -628,6 +636,7 @@ header, .section_1 {
     text-align: left;
 }
 
+/*為每個icon作放大效果，當滑鼠滑過及點選時會做動畫*/
 .icon_1, .ic_2 {
     width: 45px;
     height: 45px;
@@ -641,6 +650,7 @@ header, .section_1 {
     transform: scale(1.1);
     opacity: 1;
 }
+/*為每個icon作放大效果，當滑鼠滑過及點選時會做動畫，到這裡結束*/
 
 .sp_1 {
     margin: 0;
